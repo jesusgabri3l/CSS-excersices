@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+
+.padre{
+	width: 80%;
+	background-color: black;
+	min-height: 600px;
+	margin: 20px auto;
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.hijo{
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

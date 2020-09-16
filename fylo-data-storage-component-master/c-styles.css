@@ -1,0 +1,194 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: rgb(20, 28, 76);
+	background-image: url(./images/bg-mobile.svg);
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: auto;
+	  background-position: center;
+	  font-family: 'Raleway', sans-serif;
+	  color: white;	
+	}
+
+	.container{
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1.5em;
+		margin-top: 20%;
+		width: auto;
+	}
+
+	.icons{
+		width: auto;
+		background: hsl(228, 56%, 26%);
+		padding:2em 0.2em;
+		border-radius: 5px 80px 5px 5px;
+		display: block;
+	}
+
+	li{
+		list-style: none;
+		margin: 0.3em;
+		display: inline;
+	}
+	h1{
+		margin-left: 1em;
+	}
+
+	.logo{
+		width: 40%;
+
+	}
+
+	
+
+	.spanimg{
+		background: hsl(229, 57%, 11%);
+		padding: .8em .8em .4em .8em; 
+		border-radius: 5px;
+	}
+
+		/*ESTILOS PARA EL DISKPACE*/
+	.diskspace{
+		width: auto;
+		background: hsl(228, 56%, 26%);
+		padding: 2em;
+		border-radius: 5px;
+		display: block;
+		margin-top: 1em;
+	}
+	
+	.texto p{
+		color: white;
+		font-weight: 400;
+		font-size: 14px;
+	}
+	.texto p span{
+		font-weight: 700;
+		font-size: 14px;
+
+	}
+		.myProgress {
+	  width: 97%;
+	  background-color: hsl(229, 57%, 11%);
+	  border-radius: 30px;
+	}
+	.myBar {
+	  width: 70%;
+	  height: 12px;
+	background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+	  line-height: 30px;
+	  border-radius: 30px;
+
+	  
+	}
+	.bar{
+		padding-left: 0.5em;
+	}
+	.gb{
+		display: inline-block;
+		text-align: center;
+	}
+	#gb1{
+		float: right;
+	}
+
+	@media (min-width: 700px) {
+body{
+	background: rgb(20, 28, 76);
+	background-image: url(./images/bg-desktop.svg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: auto;
+	  font-family: 'Raleway', sans-serif;
+
+	  color: white;	
+	}
+	.container{
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1.5em;
+		margin-top: 8%;
+		margin-left: 15%;
+	}
+	
+	/* ESTILOS PARA EL LOGO E ICONO */
+
+	.icons{
+		width: 20em;
+		background: hsl(228, 56%, 26%);
+		padding: 1em;
+		border-radius: 5px 80px 5px 5px;
+		display: inline-block;
+	}
+
+	li{
+		list-style: none;
+		margin: .5em;
+		display: inline;
+	}
+	h1{
+		margin-left: 1.3em;
+	}
+	.logo{
+		width: 40%;
+
+	}
+	.spanimg{
+		background: hsl(229, 57%, 11%);
+		padding: .8em .8em .4em .8em; 
+		border-radius: 5px;
+	}
+
+		/*ESTILOS PARA EL DISKPACE*/
+	.diskspace{
+		width: 50%;
+		background: hsl(228, 56%, 26%);
+		padding: 2em;
+		border-radius: 5px;
+		margin-left: 2%;
+		display: inline-block;
+	}
+	
+	.texto p{
+		color: white;
+		font-weight: 400;
+		font-size: 14px;
+	}
+	.texto p span{
+		font-weight: 700;
+		font-size: 14px;
+
+	}
+		.myProgress {
+	  width: 97%;
+	  background-color: hsl(229, 57%, 11%);
+	  border-radius: 30px;
+	}
+	.myBar {
+	  width: 70%;
+	  height: 12px;
+	background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+	  line-height: 30px;
+	  border-radius: 30px;
+
+	  
+	}
+	.bar{
+		padding-left: 0.5em;
+	}
+	.gb{
+		display: inline-block;
+		text-align: center;
+	}
+	#gb1{
+		float: right;
+	}
+
+		}
+
